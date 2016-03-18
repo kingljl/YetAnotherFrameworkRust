@@ -7,7 +7,7 @@
 ```rust,no_run
 #[macro_use] extern crate kRust;
 
-use nickel::{kRust, HttpRouter};
+use kRust::{kRust, HttpRouter};
 
 fn main() {
     let mut server = kRust::new();
@@ -23,7 +23,7 @@ You'll need to create a *Cargo.toml* that looks like this;
 ```toml
 [package]
 
-name = "my-nickel-app"
+name = "my-kRust-app"
 version = "0.0.1"
 authors = ["yourname"]
 
